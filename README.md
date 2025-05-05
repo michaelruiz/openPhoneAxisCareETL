@@ -1,6 +1,10 @@
 # OpenPhone → AxisCare Sync App
 
-This full-stack application receives OpenPhone call summary webhooks and updates corresponding caregiver profiles in AxisCare. It includes:
+This a full stack app and is a production-ready tool I built that connects VOIP call data from OpenPhone with caregiver profiles in AxisCare. It automates the process of receiving call summaries, validating and cleaning the data, and updating caregiver records — all in real time via webhook.
+
+It features a clean React frontend with live log monitoring and mock data correction, a fully dockerized backend built in FastAPI, and is structured for maintainability, observability, and enterprise-readiness.This full-stack application receives OpenPhone call summary webhooks and updates corresponding caregiver profiles in AxisCare using dynamic Python code. 
+
+It includes:
 
 - **FastAPI backend** to receive and process OpenPhone events
 - **Sanity checks** and validation logging
